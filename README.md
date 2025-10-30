@@ -65,7 +65,7 @@ Try it live in your browser — no installation required.
 ## Files in this repository
 
 ```
-blogger-robots-txt-generator/
+blogger-robots-generator/
 ├── index.html       # Main HTML page
 ├── styles.css       # Styling (CSS)
 ├── script.js        # JS logic for generation
