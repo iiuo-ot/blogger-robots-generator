@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blogger Robots.txt Generator — Online Tools</title>
+  <meta name="description"
+    content="Generate Blogger robots.txt file automatically. Free Blogger Robots.txt Generator by It Is Unique Official.">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../">Online Tools</a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="../#tools">Tools</a></li>
+          <li><a href="../#categories">Categories</a></li>
+          <li><a href="../#about">About</a></li>
+        </ul>
+      </nav>
+      <div class="controls">
+        <input class="search" type="search" id="toolSearch" placeholder="Search tools…" list="autocompleteList" />
+        <datalist id="autocompleteList"></datalist>
+        <button id="menuToggle" class="menu-toggle" aria-label="Toggle Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero container">
+    <h1>Blogger Robots.txt Generator</h1>
+    <p class="lead">Generate an SEO-friendly custom robots.txt file for your Blogger site in one click.</p>
+  </section>
+
+  <!-- Tool Section -->
+  <section class="container">
+    <div class="card tool-box">
+      <label><strong>Your Blog URL:</strong></label>
+      <input id="siteUrl" type="text" placeholder="Enter your website URL (e.g., https://www.itisuniqueofficial.com)"
+        required />
+      <p class="error" id="errorMsg">Website URL is required!</p>
+
+      <div class="btn-wrap">
+        <button class="btn primary" id="generateBtn">Generate Robots.txt</button>
+        <button class="btn secondary" id="copyBtn">Copy to Clipboard</button>
+      </div>
+
+      <textarea class="output" id="output" rows="13" readonly
+        placeholder="Your generated robots.txt preview will appear here"></textarea>
+      <p class="message" id="copyMsg">Robots.txt copied to clipboard!</p>
+
+      <p class="note">
+        Copy the above code → Go to Blogger Settings → Crawlers and indexing → Enable custom robots.txt → Paste & Save.
+      </p>
+    </div>
+  </section>
+
+  <!-- Info Section -->
+  <section class="container article-section">
+    <h2>Introduction</h2>
+    <p>The Blogger Robots.txt Generator is a free online utility by <strong>It Is Unique Official</strong> that helps
+      you create optimized robots.txt files for your Blogger or Blogspot websites easily.</p>
+
+    <h2>What is Robots.txt in Blogger?</h2>
+    <p>The robots.txt file tells search engine crawlers which pages or sections of your blog to index or ignore. It’s a
+      crucial SEO component that helps control how Google and Bing access your content.</p>
+
+    <h2>How to Use?</h2>
+    <ul>
+      <li>Enter your blog’s URL in the input box above.</li>
+      <li>Click “Generate Robots.txt”.</li>
+      <li>Copy the generated code.</li>
+      <li>Go to Blogger Settings → Crawlers and indexing → Enable custom robots.txt → Paste & Save.</li>
+    </ul>
+
+    <h2>Conclusion</h2>
+    <p>Using a proper robots.txt ensures that your Blogger blog is SEO-optimized, avoiding duplicate content and
+      improving index coverage. This tool simplifies that process in seconds.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Online Tools</strong>
+        <div class="muted">© <span id="year"></span> ot.itisuniqueofficial.com</div>
+      </div>
+      <div class="footer-links">
+        <a href="/PRIVACY">Privacy</a>
+        <a href="https://github.com/orgs/iiuo-ot/discussions">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="/search.js"></script>
+</body>
+
+</html>

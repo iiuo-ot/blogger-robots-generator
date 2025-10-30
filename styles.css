@@ -1,0 +1,102 @@
+@import url('../styles.css');
+
+/* ===== Additional Styles for Robots.txt Generator ===== */
+
+.tool-box {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+#siteUrl {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: transparent;
+  color: var(--white);
+  margin-bottom: 8px;
+}
+
+.output {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 6px;
+  color: var(--sky);
+  resize: vertical;
+  font-size: 0.95rem;
+  font-family: monospace;
+}
+
+.btn-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.btn.primary, .btn.secondary {
+  cursor: pointer;
+  border: none;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.btn.primary:hover, .btn.secondary:hover {
+  transform: scale(1.05);
+}
+
+.btn.secondary {
+  background: transparent;
+  border: 1px solid var(--sky);
+  color: var(--sky);
+}
+
+.error {
+  color: red;
+  display: none;
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+.message {
+  color: green;
+  display: none;
+  margin-top: 10px;
+}
+
+.note {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 16px;
+}
+
+/* Info Section */
+.article-section {
+  max-width: 800px;
+  margin: 50px auto;
+  line-height: 1.7;
+  color: var(--grey);
+}
+
+.article-section h2 {
+  color: var(--white);
+  margin-top: 32px;
+  font-size: 1.4rem;
+}
+
+.article-section ul {
+  margin: 10px 0 20px 20px;
+}
+
+.article-section p {
+  margin-bottom: 12px;
+}
