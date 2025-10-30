@@ -57,7 +57,7 @@ Sitemap: https://thatdisplayed.blogspot.com/sitemap-pages.xml
 
 ## Demo
 
-👉 **[Open Tool](https://iiuo-ot.github.io/blogger-robots-txt-generator/)**
+👉 **[Open Tool](https://iiuo-ot.github.io/blogger-robots-generator/)**
 Try it live in your browser — no installation required.
 
 ---
